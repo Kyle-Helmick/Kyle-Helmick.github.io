@@ -1,25 +1,20 @@
 import React from "react";
-import CenterPage from "./Components/CenterPage";
-import { Alert } from "reactstrap";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { EverythingElse, FourOhFour, Home, Me, Projects } from "./Pages";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <CenterPage>
-        <Alert color="secondary">
-          <h2>
-            <span role="img" aria-label="Construction Sign">
-              🚧{" "}
-            </span>
-            Looks like we're under construction, come back later!
-            <span role="img" aria-label="Construction Sign">
-              {" "}
-              🚧
-            </span>
-          </h2>
-        </Alert>
-      </CenterPage>
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/me" component={Me} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/everythingelse" component={EverythingElse} />
+          <Route component={FourOhFour} />
+        </Switch>
+      </Router>
     </div>
   );
 }

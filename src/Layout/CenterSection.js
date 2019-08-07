@@ -1,6 +1,6 @@
 import React from "react";
 
-const CenterPage = props => {
+const CenterSection = props => {
   return (
     <div
       className="d-flex flex-column"
@@ -15,4 +15,4 @@ const CenterPage = props => {
   );
 };
 
-export default CenterPage;
+export default CenterSection;
