@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, CSSProperties } from 'react'
 
 import {
   Collapse,
@@ -14,7 +14,7 @@ import { NavLink as RouterLink } from 'react-router-dom'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
-  let NavStyle = {
+  let NavStyle: CSSProperties = {
     width: '100%',
     position: 'absolute',
     top: '0px',
@@ -26,22 +26,22 @@ const Navbar = () => {
   }
 
   return (
-    <Bootbar style={NavStyle} light expand="md">
+    <Bootbar style={NavStyle} light expand='md'>
       <NavbarToggler onClick={() => setToggle(!toggle)} />
       <Collapse isOpen={toggle} navbar>
-        <Nav className="ml-auto" navbar>
+        <Nav className='ml-auto' navbar>
           <NavItem>
-            <BootLink tag={RouterLink} activeStyle={ActiveStyle} exact to="/">
+            <BootLink tag={RouterLink} activeStyle={ActiveStyle} exact to='/'>
               Home
             </BootLink>
           </NavItem>
           <NavItem>
-            <BootLink tag={RouterLink} activeStyle={ActiveStyle} to="/me">
+            <BootLink tag={RouterLink} activeStyle={ActiveStyle} to='/me'>
               Me
             </BootLink>
           </NavItem>
           <NavItem>
-            <BootLink tag={RouterLink} activeStyle={ActiveStyle} to="/projects">
+            <BootLink tag={RouterLink} activeStyle={ActiveStyle} to='/projects'>
               Projects
             </BootLink>
           </NavItem>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <BootLink
               tag={RouterLink}
               activeStyle={ActiveStyle}
-              to="/everythingelse">
+              to='/everythingelse'>
               Everything Else
             </BootLink>
           </NavItem>
