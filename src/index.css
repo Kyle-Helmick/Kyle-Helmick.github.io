@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+p {
+  max-width: 400px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   /* remove scrollbar space */

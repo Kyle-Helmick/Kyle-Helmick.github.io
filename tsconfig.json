@@ -23,6 +23,6 @@
   ],
   "exclude": ["target", "dist", "node_modules", "__tests__"],
   "types": ["node", "webpack", "react", "react-dom", "reactstrap"],
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts*"],
   "compileOnSave": true
 }

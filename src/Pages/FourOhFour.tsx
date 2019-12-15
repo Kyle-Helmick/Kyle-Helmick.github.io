@@ -1,6 +1,5 @@
+import ColumnSection from '../Layout/ColumnSection'
 import React, { Component } from 'react'
-import CenterSection from '../Layout/CenterSection'
-
 import { Link } from 'react-router-dom'
 
 export class FourOhFour extends Component {
@@ -15,7 +14,7 @@ export class FourOhFour extends Component {
 
   render() {
     return (
-      <CenterSection>
+      <ColumnSection>
         <h1>404</h1>
         <h2>
           {
@@ -25,9 +24,9 @@ export class FourOhFour extends Component {
           }
         </h2>
         <h2>
-          Let's get you back <Link to='/'>home</Link>.
+          Let's get you back <Link to="/">home</Link>.
         </h2>
-      </CenterSection>
+      </ColumnSection>
     )
   }
 }
