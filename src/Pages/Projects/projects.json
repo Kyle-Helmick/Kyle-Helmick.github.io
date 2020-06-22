@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Blockparty",
+        "description": [
+            "Blockparty is a suite that gives an interface to Discord, and online player monitoring for Minecraft servers on AWS (for now). It uses Minecraft's rcon server to check in on players and uses a three strikes you're out system to safely shutdown the server once everyone is logged out.",
+            "While it is nice, the installation can be improved and is currently in the works."
+        ],
+        "link": "https://github.com/Kyle-Helmick/Blockparty",
+        "fontAwesomeIcon": "github"
+    },
+    {
+        "title": "mr_dictionary",
+        "description": [
+            "Mr. Dictionary, aka your friendly neighborhood 'gotcha,' is a slack bot that looks for questions like \"What's up?\", \"whats wrong with your face\", or even the classic \"what are you even talking about\" and makes sure YOU get the definition you need. Using a only a couple of apis, a list of words shamelessly stolen from a public and copyright free source, and an AWS Lambda, you can rest easy knowing that \"The purpose of this site might mean one of the following! To turn aside : deviate\""
+        ],
+        "link": "https://github.com/Kyle-Helmick/mr_dictionary",
+        "fontAwesomeIcon": "github"
+    },
+    {
+        "title": "writemeastory",
+        "description": [
+            "Have you ever wondered what it would sound like if math could talk, but only after it learned how to from batman/superman fanfic? Now you can. With the ability to train on any source, writemeastory uses very complex (but not really) markov models to mimic source texts and maybe (statistically possible but very unlikely) create a new unique story just for you!"
+        ],
+        "link": "https://github.com/Kyle-Helmick/writemeastory",
+        "fontAwesomeIcon": "github"
+    },
+    {
+        "title": "Python-JSONY",
+        "description": [
+            "Python-JSONY was just a fun project. It's a JSON validator written in python. There's really not a lot to it and I think it's semi-bad code so I archived it."
+        ],
+        "link": "https://github.com/Kyle-Helmick/Python-JSONY",
+        "fontAwesomeIcon": "github"
+    }
+]

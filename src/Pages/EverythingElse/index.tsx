@@ -1,5 +1,5 @@
-import ColumnSection from '../Layout/ColumnSection'
-import Navbar from '../Layout/Navbar'
+import ColumnSection from '../../Layout/ColumnSection'
+import Navbar from '../../Layout/Navbar'
 import React, { Fragment } from 'react'
 import { Element, Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
