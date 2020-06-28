@@ -16,7 +16,7 @@ library.add(faAngleDown, faGithub, faTwitter, faInstagram, faLinkedin)
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/me" component={Me} />
