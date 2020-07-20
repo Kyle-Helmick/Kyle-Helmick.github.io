@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { EverythingElse, FourOhFour, Home, Me, Projects } from './Pages'
+import { EverythingElse, FourOhFour, Home, Me, Projects, Resume } from './Pages'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
@@ -21,6 +21,7 @@ const App: React.FC = () => {
           <Route path="/" exact component={Home} />
           <Route path="/me" component={Me} />
           <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
           <Route path="/everythingelse" component={EverythingElse} />
           <Route component={FourOhFour} />
         </Switch>

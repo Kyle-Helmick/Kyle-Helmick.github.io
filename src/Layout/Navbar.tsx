@@ -64,6 +64,16 @@ const Navbar = () => {
             <BootLink
               tag={RouterLink}
               activeStyle={ActiveStyle}
+              to="/resume"
+              onClick={() => window.scrollTo(0, 0)}
+            >
+              Resume
+            </BootLink>
+          </NavItem>
+          <NavItem>
+            <BootLink
+              tag={RouterLink}
+              activeStyle={ActiveStyle}
               to="/everythingelse"
               onClick={() => window.scrollTo(0, 0)}
             >

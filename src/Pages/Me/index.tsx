@@ -46,13 +46,9 @@ const Me = () => {
       <Element name="section3">
         <ColumnSection>
           <p>
-            Right now I'm interested in a couple things like mountain biking,
-            rock climbing, cooking, and hiking.
-          </p>
-          <p>
-            Ok now that this is sounding like a dating profile, (aren't you glad
-            I didn't say long walks on the beach) I'd recommend to go check out
-            other parts of this site.
+            Right now I'm interested in a couple things like mountain/road
+            biking, rock climbing, cooking, and hiking. Essentially most outdoor
+            activities that end with ing.
           </p>
         </ColumnSection>
       </Element>
